@@ -2,8 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.17'
 gem 'haml'
-
 gem 'pg'
+gem 'devise'
+gem 'doorkeeper'
 
 group :development, :test do
   gem 'rspec-rails'
