@@ -5,6 +5,7 @@ gem 'haml'
 gem 'pg'
 gem 'devise'
 gem 'doorkeeper'
+gem 'active_model_serializers'
 
 group :development, :test do
   gem 'rspec-rails'
